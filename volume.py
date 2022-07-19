@@ -17,6 +17,9 @@ class VolumeCommand(sublime_plugin.WindowCommand):
 
     if window:
       settings = sublime.load_settings("volume.sublime-settings")
+      # TODO: check for validity of settings structure
+      # TODO: Support order (increase or decrease)
+      # TODO: Support boundary
       if settings:
         self.reload_settings_on_change(settings)
 

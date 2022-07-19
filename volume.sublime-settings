@@ -1,33 +1,33 @@
-{
-  "commands":[
-      {
-        "command": "set_layout",
-        "args": {
-              "cols": [0.0, 1.0],
-              "rows": [0.0, 0.5, 1.0],
-              "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
-         },
-        "scope": "window"
-      },
-      {
-        "command": "set_layout",
-        "args": {
-              "cols": [0.0, 1.0],
-              "rows": [0.0, 0.75, 1.0],
-              "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
-        },
-        "scope": "window"
-      },
-      {
-        "command": "set_layout",
-        "args": {
-              "cols": [0.0, 1.0],
-              "rows": [0.0, 0.95, 1.0],
-              "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
-        },
-        "scope": "window"
-      }
-  ],
-  "order": "asc|dsc",
-  "boundary": "rotate|stop"
-}
+// {
+//   "commands":[
+//       {
+//         "command": "set_layout",
+//         "args": {
+//               "cols": [0.0, 1.0],
+//               "rows": [0.0, 0.5, 1.0],
+//               "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+//          },
+//         "scope": "window"
+//       },
+//       {
+//         "command": "set_layout",
+//         "args": {
+//               "cols": [0.0, 1.0],
+//               "rows": [0.0, 0.75, 1.0],
+//               "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+//         },
+//         "scope": "window"
+//       },
+//       {
+//         "command": "set_layout",
+//         "args": {
+//               "cols": [0.0, 1.0],
+//               "rows": [0.0, 0.95, 1.0],
+//               "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+//         },
+//         "scope": "window"
+//       }
+//   ],
+//   "order": "asc|dsc",
+//   "boundary": "rotate|stop"
+// }
