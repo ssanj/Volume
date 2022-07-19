@@ -12,11 +12,11 @@ class VolumeCommand(sublime_plugin.WindowCommand):
   cached_settings = None
   cache_settings_hash = None
 
-  def run(self):
+  def run(self, **args):
     window = self.window
 
     if window:
-      settings = sublime.load_settings("volume.sublime-settings")
+      settings = args
       # TODO: check for validity of settings structure
       # TODO: Support order (increase or decrease)
       # TODO: Support boundary
@@ -36,9 +36,9 @@ class VolumeCommand(sublime_plugin.WindowCommand):
     else:
       self.show_error("No active window found")
 
-  def reload_settings_on_change(self, settings: sublime.Settings) -> None:
-    print(f"{settings.to_dict()}")
-    settings_hash: str = self.get_settings_hash(settings.to_dict())
+  def reload_settings_on_change(self, settings: Dict[str, Any]) -> None:
+    print(f"{settings}")
+    settings_hash: str = self.get_settings_hash(settings)
     print(f"settings_hash: {settings_hash}")
     print(f"cache_settings_hash: {settings_hash}")
 
