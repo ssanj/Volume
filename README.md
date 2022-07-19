@@ -16,7 +16,7 @@ A [Sublime Text](https://www.sublimetext.com/) Command to allow progressively ru
 
 ### Volume Invocation
 
-A volume invocation is a composite of a key-combination along with a list of commands to run.
+A volume invocation is a composite of a **key-combination** along with a **list of commands** to run.
 
 An example Volume Invocation from the user key-bindings file:
 
