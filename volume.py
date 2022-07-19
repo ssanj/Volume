@@ -17,9 +17,10 @@ class VolumeCommand(sublime_plugin.WindowCommand):
 
     if window:
       settings = args
-      # TODO: check for validity of settings structure
-      # TODO: Support order (increase or decrease)
-      # TODO: Support boundary
+      # TODO: Check for validity of settings structure
+      # TODO: Support order (increase or decrease on each invocation)
+      # TODO: Support boundary (rollover or stop)
+      # TODO: Have separate cache setting per invocation. This would require a unique id per invocation.
       if settings:
         self.reload_settings_on_change(settings)
 
